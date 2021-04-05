@@ -1,0 +1,20 @@
+<%- include('./partials/head') -%>
+
+    <h6>Join GitHub</h6>
+    <h2 id="h2">Create your account</h2>
+    <form action="/register" method="post">
+        <p>Username</p>
+        <input type="text" name="userName" placeholder="userName"> <br>
+        <p>Email</p>
+        <input type="email" name="email" placeholder="email"> <br>
+        <p>Password</p>
+        <input type="password" name="password" placeholder="password"> <br>
+        <button type="submit" class="btn btn-primary btn-block">
+            Create account
+        </button>
+    </form>
+    <h4 align="center">
+        <a href="/">Main pages</a>
+    </h4>
+
+<%- include('./partials/foot') -%>
