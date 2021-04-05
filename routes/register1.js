@@ -5,7 +5,7 @@ const Joi = require('joi');
 const {User} = require('../models/user');
 
 router.get('/', async(req, res) => {
-    res.send('index');
+    res.render('index');
 });
 
 router.post('/', async(req, res) => {
